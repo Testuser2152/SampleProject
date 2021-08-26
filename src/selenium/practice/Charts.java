@@ -37,7 +37,7 @@ public class Charts {
 			System.out.println(x);
 		}
 		
-		/*// points in line  --- working
+		/*// points in line  --- working here
 		WebElement scroll=driver.findElement(By.xpath("//label[@for='startmonthyear']"));
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", scroll);
