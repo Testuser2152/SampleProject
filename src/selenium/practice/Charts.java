@@ -22,7 +22,7 @@ public class Charts {
 		driver.manage().window().maximize();
 
 		// Bar Chart values --- working
-// Bar Chart values --- working
+// Bar Chart values --- working sandeep
 		String list= "//*[name()='svg']//*[local-name()='g' and @class='highcharts-series-group']//*[name()='rect']";
 		List<WebElement> l= driver.findElements(By.xpath(list));
 		System.out.println("********Size"+ l.size());
